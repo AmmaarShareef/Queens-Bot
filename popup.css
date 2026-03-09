@@ -1,0 +1,47 @@
+body {
+    width: 150px;
+    height: 250px;
+    background-image: url("Queens-Bot.png");
+    background-size: cover;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+button {
+    font-style: bold;
+    font-family: "Bahiana", sans-serif;
+    font-size: large;
+    background-color: black;
+    color: gold;
+    border: 3px dashed white;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all;
+    transition-duration: 400ms;
+}
+
+button:hover {
+    scale: 110%;
+    border: 3px solid white;
+    box-shadow: 0 0 15px rgb(230, 13, 230);
+}
+
+#grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center
+}

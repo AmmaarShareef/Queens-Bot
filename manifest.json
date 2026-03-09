@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "Queens Bot",
+    "version": "1.0",
+    "content_scripts": 
+    [
+        {
+            "matches": 
+            [
+                "*://www.linkedin.com/*"
+            ],
+            "js": 
+            [
+                "content.js"
+            ]
+        }
+    ],
+    "action": 
+    {
+        "default_popup": "popup.html"
+    },
+    "permissions": 
+    [
+        "activeTab",
+        "scripting"
+    ],
+    "web_accessible_resources": 
+    [
+        {
+            "resources": 
+            [
+                "Queens-Bot.png"
+            ],
+            "matches": 
+            [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
