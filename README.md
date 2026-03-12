@@ -2,7 +2,17 @@
 
 A Chrome extension that instantly solves LinkedIn’s Queens puzzle using a backtracking algorithm.
 
-The algorithm solves the board in under a second — a small delay is added when placing queens so LinkedIn’s game can register the clicks.
+The algorithm solves the board in under a second, try making a slight delay in solving so LinkedIn’s game can register the clicks.
+
+-----
+
+## Installation
+
+1. Clone or download this repository
+1. Open Chrome and go to `chrome://extensions`
+1. Enable **Developer mode** (toggle in the top right)
+1. Click **Load unpacked** and select the `queens-solver` folder
+1. The Queens Bot icon will appear in your toolbar
 
 -----
 
@@ -46,16 +56,6 @@ queens-solver/
 ├── popup.js            — Triggers board read on open, sends solve message on button click
 └── popup.css           — Styling
 ```
-
------
-
-## Installation
-
-1. Clone or download this repository
-1. Open Chrome and go to `chrome://extensions`
-1. Enable **Developer mode** (toggle in the top right)
-1. Click **Load unpacked** and select the `queens-solver` folder
-1. The Queens Bot icon will appear in your toolbar
 
 -----
 
